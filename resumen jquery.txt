@@ -1,0 +1,8 @@
+callbacks- funcion parametrisada 
+$(function() {}- declaracion de funcion principal 
+// octener events
+var buuton=document.getElementById('idButtton'); -obtiene el evento por id
+	-hace un Listener  -del evento clic - por medio de esta funcion que trae mas cosas 
+buuton.addEventListener('click',function(event)){
+	alert('Me hicieron click');
+}
